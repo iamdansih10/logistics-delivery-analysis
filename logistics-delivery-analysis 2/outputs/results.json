@@ -1,0 +1,32 @@
+{
+  "kpi": {
+    "on_time_rate_pct": 66.2,
+    "avg_delivery_time_min": 61.7,
+    "avg_cost_per_delivery_inr": 82.5,
+    "cost_per_km_inr": 6.27,
+    "stock_out_rate_pct": 4.6
+  },
+  "rain_avg_time": {
+    "0": 59.6,
+    "1": 70.5
+  },
+  "rush_on_time_pct": {
+    "0": 78.3,
+    "1": 46.7
+  },
+  "model": {
+    "r2": 0.91,
+    "mae_min": 4.76,
+    "coefficients": {
+      "distance_km": 3.1,
+      "weight_kg": 0.62,
+      "rain": 9.35,
+      "rush_hour": 6.95
+    }
+  },
+  "route_demo": {
+    "naive_km": 110.4,
+    "nearest_neighbour_km": 66.1,
+    "saving_pct": 40.1
+  }
+}
